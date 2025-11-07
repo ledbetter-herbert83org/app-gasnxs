@@ -9,7 +9,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-         server: [6233630]
+         server: [6233630, 6533774, 6564015, 6564018]
     timeout-minutes: 360
     steps:
       - uses: actions/checkout@v2
@@ -30,7 +30,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-         server: [6233630]
+         server: [6233630, 6533774, 6564015, 6564018]
     timeout-minutes: 360
     steps:
       - uses: actions/checkout@v2
@@ -51,7 +51,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-         server: [6233630]
+         server: [6233630, 6533774, 6564015, 6564018]
     timeout-minutes: 360
     steps:
       - uses: actions/checkout@v2
@@ -72,7 +72,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-         server: [6233630]
+         server: [6233630, 6533774, 6564015, 6564018]
     timeout-minutes: 360
     steps:
       - uses: actions/checkout@v2
